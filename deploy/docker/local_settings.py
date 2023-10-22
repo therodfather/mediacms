@@ -3,7 +3,7 @@ PORTAL_NAME = 'MediaCMS'
 SECRET_KEY = 'ma!s3^b-cw!f#7s6s0m3*jx77a@riw(7701**(r=ww%w!2+yk2'
 POSTGRES_HOST = 'db'
 REDIS_LOCATION = "redis://redis:6379/1"
-
+MEDIA_ROOT = "/mnt/my-bucket/"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
